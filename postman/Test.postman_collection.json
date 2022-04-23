@@ -18,7 +18,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nth\":1000000\r\n}"
+					"raw": "{\r\n    \"nth\":10000\r\n}"
 				},
 				"url": {
 					"raw": "https://arswlab.azurewebsites.net/api/Fibonacci",
