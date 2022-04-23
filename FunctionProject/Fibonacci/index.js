@@ -18,7 +18,9 @@ module.exports = async function (context, req) {
         return res;
     }
     context.res = {
-        body: fibomemo(BigInt(nth)).toString()
+        headers: { 'Content-Type': 'application/json' },
+        body: {"res":fibomemo(BigInt(nth)).toString()}
     };
+    context.done();
 }
 
