@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "844b98f8-af9b-4fc4-ba91-9b8d9ca239a4",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://arswlab.azurewebsites.net/api/Fibonacci",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nth\":1000000\r\n}"
+				},
+				"url": {
+					"raw": "https://arswlab.azurewebsites.net/api/Fibonacci",
+					"protocol": "https",
+					"host": [
+						"arswlab",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Fibonacci"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
