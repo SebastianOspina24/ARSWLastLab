@@ -42,6 +42,8 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 6. Cree una nueva Function que resuleva el problema de Fibonacci pero esta vez utilice un enfoque recursivo con memoization. Pruebe la función varias veces, después no haga nada por al menos 5 minutos. Pruebe la función de nuevo con los valores anteriores. ¿Cuál es el comportamiento?.
 
+    Se evidencia que al inicio consume mucho tiempo pero inmediatamente después el tiempo disminuye considerablemente, sin embargo cuando se pasan un tiempo considerable el tiempo vuelve a ser mayor.
+
 **Preguntas**
 
 * ¿Qué es un Azure Function?
@@ -89,6 +91,8 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 * Informe
 
+    Todas las respuesta se entregaron bien pero se puede ver una diferencia de tiempos importante; tal como se evidencia en la siguientes imagenes:
+    
     ![](images/informe.jpeg)
-    ![](images/informe1.jpeg)
     ![](images/informe2.jpeg)
+    ![](images/informe3.jpeg)
